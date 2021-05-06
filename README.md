@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm Pratik</h1>
 <h3 align="center">I am currently learning to become data engineer</h3>
 
-- 🌱 I’m currently learning **Spark**
+- 🌱 I’m currently learning **Power-BI** and **Spark**
 
 - 💬 Ask me about **Azure Data Engineering.**
 
