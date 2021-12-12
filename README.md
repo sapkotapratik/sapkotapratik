@@ -1,11 +1,11 @@
 <h1 align="center">Hi 👋, I'm Pratik</h1>
 <h3 align="center">I am currently learning to become data engineer</h3>
 
-- 🌱 I’m currently learning **Power-BI** and **Spark**
+- 🌱 I’m currently learning **Azure Databricks** and **PySpark**
 
 - 💬 Ask me about **Azure Data Engineering.**
 
-- 📫 How to reach me **sapkota053@gmail.com**
+- 📫 How to reach me **sapkotapratik@outlook.com**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
