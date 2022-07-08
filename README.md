@@ -1,9 +1,9 @@
 <h1 align="center">Hi 👋, I'm Pratik</h1>
-<h3 align="center">I am currently learning to become data engineer</h3>
+<h3 align="center">I am currently learning to become dataops engineer</h3>
 
-- 🌱 I’m currently learning **Azure Databricks** and **PySpark**
+- 🌱 I’m currently learning **Azure Devops**.
 
-- 💬 Ask me about **Azure Data Engineering.**
+- 💬 Ask me about **Azure Data Engineering and Devops**
 
 - 📫 How to reach me **sapkotapratik@outlook.com**
 
