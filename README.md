@@ -23,20 +23,11 @@
 					<div class="display-t js-fullheight">
 						<div class="display-tc js-fullheight animate-box" data-animate-effect="fadeIn">
 							<div class="profile-thumb" style="background: url(images/user-2.jpg);"></div>
-							<h1><span>Sulabh Shrestha</span></h1>
+					
 							<h3><span>Microsoft Certified: Azure Data Engineer</span></h3>
-							<p>
-								<ul class="fh5co-social-icons">
-									<li><a href="https://www.linkedin.com/in/sulabhshrestha/"><i class="icon-linkedin2"></i></a></li>
-									<li><a href="https://github.com/codexponent"><i class="icon-github2" 
-										style="width:23px;" 
-										></i></a></li>
-									<li><a href="https://sulabh4.medium.com/" ><i class="fa fa-medium" style="color:white;"></i></a></li>
-								</ul>
-								<br />
-								<ul class="fh5co-social-icons">
-									<li><a href="https://www.youracclaim.com/badges/1211ad7a-4978-4587-920b-f1a062d97985/public_url"><img align="center" src="images/dp-200-implementing-an-azure-data-solution.1.png" title="DP-200" height="120" width="120" /></a></li>
-									<li><a href="https://www.youracclaim.com/badges/6d0c56a9-d132-4159-8973-fc9d5b134bfc/public_url"><img align="center" src="images/dp-201-designing-an-azure-data-solution.1.png" title="DP-201" height="120" width="120" /></a></li>
+								
+
+									<li><a href="https://www.youracclaim.com/badges/6d0c56a9-d132-4159-8973-fc9d5b134bfc/public_url"><img align="center" src="images/dp-201-designing-an-azure-data-solution.1.png" title="DP-203" height="120" width="120" /></a></li>
 									<li><a href="https://www.youracclaim.com/badges/e897cdb0-5265-4d76-adf5-9de0d6833483/public_url"><img align="center" src="images/microsoft-certified-azure-data-engineer-associate.png" title="Azure Data Engineer" height="120" width="120" /></a></li>
 								</ul>
 							</p>
