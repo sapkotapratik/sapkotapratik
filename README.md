@@ -19,3 +19,7 @@
   <a href="https://www.credly.com/badges/73cdbc85-bf97-4b83-8691-ea9e67e39f06">
     <img align="center" src="microsoft-certified-azure-data-engineer-associate.png" title="Azure Data Engineer" height="120" width="120">
   </a>
+  <a href="https://www.credly.com/badges/a3a092c5-8ce3-4041-88de-c6604aab0948">
+    <img align="center" src="microsoft-certified-azure-data-engineer-associate.png" title="Azure AI Engineer" height="120" width="120">
+  </a>
+  
