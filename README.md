@@ -29,10 +29,9 @@
 
 									<li><a href="https://www.youracclaim.com/badges/6d0c56a9-d132-4159-8973-fc9d5b134bfc/public_url"><img align="center" src="images/dp-201-designing-an-azure-data-solution.1.png" title="DP-203" height="120" width="120" /></a></li>
 									<li><a href="https://www.youracclaim.com/badges/e897cdb0-5265-4d76-adf5-9de0d6833483/public_url"><img align="center" src="images/microsoft-certified-azure-data-engineer-associate.png" title="Azure Data Engineer" height="120" width="120" /></a></li>
-								</ul>
-							</p>
-						</div>
-					</div>
+							
+						
+				
 				</div>
 			</div>
 		</div>
