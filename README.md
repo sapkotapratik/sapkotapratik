@@ -17,5 +17,5 @@
 
 <h1>Exam and Certifications</h1>
   <a href="https://www.credly.com/badges/73cdbc85-bf97-4b83-8691-ea9e67e39f06">
-    <img src="microsoft-certified-azure-data-engineer-associate.png" alt="Certification Badge">
+    <img align="center" src="images/microsoft-certified-azure-data-engineer-associate.png" title="Azure Data Engineer" height="120" width="120">
   </a>
