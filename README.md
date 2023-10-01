@@ -1,13 +1,13 @@
 <h1 align="center">Hi 👋, I'm Pratik</h1>
-<h3 align="center">DataOps engineer in active pursuit.</h3>
+<h3 align="center">DataOps Engineer In Active Pursuit.</h3>
 
 - 🌱 I’m currently working as  **Azure Cloud Consultant(DataOps)**.
 
-- 💬 Ask me about **Azure Data Engineering and Devops**
+- 💬 Ask me about **Azure Data Engineering and DevOps**
 
 - 📫 How to reach me **sapkotapratik@outlook.com**
 
-<h3 align="left">Connect with me:</h3>
+<h3 align="left">Connect with me ::</h3>
 <p align="left">
 <a href="https://linkedin.com/in/pratiksapkota" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/neutral-icons/src/images/icons/Social/linked-in-alt.svg" alt="pratiksapkota" height="30" width="40" /></a>
 </p>
