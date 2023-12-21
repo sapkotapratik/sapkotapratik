@@ -1,9 +1,9 @@
 <h1 align="center">Hi 👋, I'm Pratik</h1>
-<h3 align="center">DataOps Engineer In Active Pursuit.</h3>
+<h3 align="center">LLM DataOps Engineer In Active Pursuit.</h3>
 
 - 🌱 I’m currently working as  **Azure Cloud Consultant(DataOps)**.
 
-- 💬 Ask me about **Azure Data Engineering and DevOps**
+- 💬 Ask me about **Azure Data Engineering, DevOps and LLMs**
 
 - 📫 How to reach me **sapkotapratik@outlook.com**
 
