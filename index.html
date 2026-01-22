@@ -1,0 +1,512 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Prateek Sapkota — DataOps / Cloud & Data Engineering (Azure). Resume and PDF." />
+  <title>Prateek Sapkota — Resume</title>
+
+  <style>
+    :root{
+      --bg:#0b1020;
+      --card:#111935;
+      --card2:#0f1730;
+      --text:#e9ecf5;
+      --muted:#b8c0dd;
+      --line:rgba(255,255,255,.12);
+      --accent:#7aa2ff;
+      --accent2:#73e1c4;
+      --shadow: 0 10px 30px rgba(0,0,0,.35);
+      --radius: 18px;
+      --max: 1040px;
+    }
+    *{box-sizing:border-box}
+    html,body{height:100%}
+    body{
+      margin:0;
+      font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji","Segoe UI Emoji";
+      background: radial-gradient(1200px 700px at 20% -10%, rgba(122,162,255,.25), transparent 60%),
+                  radial-gradient(900px 600px at 90% 0%, rgba(115,225,196,.20), transparent 55%),
+                  var(--bg);
+      color:var(--text);
+      line-height:1.55;
+    }
+    a{color:inherit}
+    .wrap{max-width:var(--max); margin:0 auto; padding:28px 18px 56px}
+    .topbar{
+      position:sticky; top:0; z-index:20;
+      backdrop-filter: blur(10px);
+      background: rgba(11,16,32,.55);
+      border-bottom: 1px solid var(--line);
+    }
+    .topbar .wrap{padding:14px 18px}
+    .nav{
+      display:flex; align-items:center; justify-content:space-between; gap:12px;
+      flex-wrap:wrap;
+    }
+    .brand{
+      display:flex; align-items:center; gap:10px; text-decoration:none;
+      font-weight:700;
+      letter-spacing:.2px;
+    }
+    .dot{
+      width:12px; height:12px; border-radius:99px;
+      background: linear-gradient(135deg, var(--accent), var(--accent2));
+      box-shadow: 0 0 0 4px rgba(122,162,255,.15);
+    }
+    .links{
+      display:flex; gap:10px; flex-wrap:wrap;
+    }
+    .pill{
+      display:inline-flex; align-items:center; gap:8px;
+      padding:9px 12px;
+      border: 1px solid var(--line);
+      border-radius:999px;
+      background: rgba(255,255,255,.04);
+      text-decoration:none;
+      font-size: 14px;
+      color: var(--muted);
+    }
+    .pill:hover{border-color: rgba(122,162,255,.55); color: var(--text)}
+    .pill strong{color:var(--text); font-weight:650}
+    .btn{
+      display:inline-flex; align-items:center; justify-content:center; gap:10px;
+      padding:11px 14px;
+      border-radius: 999px;
+      border: 1px solid rgba(122,162,255,.55);
+      background: rgba(122,162,255,.12);
+      color: var(--text);
+      text-decoration:none;
+      font-weight:650;
+      font-size:14px;
+    }
+    .btn:hover{background: rgba(122,162,255,.18)}
+    .btn.secondary{
+      border-color: rgba(115,225,196,.55);
+      background: rgba(115,225,196,.10);
+    }
+    .btn.secondary:hover{background: rgba(115,225,196,.16)}
+
+    .hero{
+      margin-top: 18px;
+      display:grid;
+      grid-template-columns: 1.15fr .85fr;
+      gap:18px;
+    }
+    @media (max-width: 900px){
+      .hero{grid-template-columns:1fr}
+    }
+
+    .card{
+      background: linear-gradient(180deg, rgba(255,255,255,.06), rgba(255,255,255,.03));
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      overflow:hidden;
+    }
+    .card .inner{padding:18px 18px 16px}
+    .h1{
+      font-size: 34px;
+      line-height:1.15;
+      margin:0 0 8px;
+      letter-spacing:.2px;
+    }
+    .subtitle{
+      margin:0 0 14px;
+      color: var(--muted);
+      font-size: 15px;
+      max-width: 70ch;
+    }
+    .meta{
+      display:flex; flex-wrap:wrap; gap:10px;
+      margin-top: 10px;
+    }
+    .meta .pill{background: rgba(17,25,53,.35)}
+    .section{
+      margin-top: 18px;
+      display:grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 18px;
+    }
+    @media (max-width: 900px){
+      .section{grid-template-columns:1fr}
+    }
+
+    .titlebar{
+      display:flex; align-items:center; justify-content:space-between; gap:10px;
+      padding: 14px 18px;
+      background: rgba(17,25,53,.35);
+      border-bottom: 1px solid var(--line);
+    }
+    .titlebar h2{
+      margin:0;
+      font-size:16px;
+      letter-spacing:.2px;
+    }
+    .titlebar span{
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    .chips{display:flex; flex-wrap:wrap; gap:8px}
+    .chip{
+      font-size: 13px;
+      padding: 7px 10px;
+      border-radius: 999px;
+      border: 1px solid var(--line);
+      background: rgba(255,255,255,.04);
+      color: var(--muted);
+    }
+
+    .list{
+      display:flex; flex-direction:column; gap:14px;
+      padding: 16px 18px 18px;
+    }
+    .item{
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      background: rgba(15,23,48,.50);
+      padding: 14px 14px 12px;
+    }
+    .itemhead{
+      display:flex; align-items:flex-start; justify-content:space-between; gap:10px; flex-wrap:wrap;
+    }
+    .role{font-weight:750; margin:0}
+    .company{color: var(--muted); margin:2px 0 0}
+    .when{color: var(--muted); font-size: 13px; white-space:nowrap}
+    .where{color: var(--muted); font-size: 13px; margin-top: 6px}
+    ul{margin:10px 0 0 18px; padding:0}
+    li{margin: 6px 0; color: var(--muted)}
+    .twoCol{
+      display:grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+    }
+    @media (max-width: 560px){
+      .twoCol{grid-template-columns: 1fr}
+    }
+
+    .pdfwrap{
+      padding: 16px 18px 18px;
+    }
+    .pdfbox{
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      background: rgba(15,23,48,.50);
+      overflow:hidden;
+    }
+    .pdfbox object, .pdfbox iframe{
+      width:100%;
+      height: 760px;
+      border:0;
+      display:block;
+      background:#0a0f1f;
+    }
+    @media (max-width: 900px){
+      .pdfbox object, .pdfbox iframe{height: 620px}
+    }
+
+    footer{
+      margin-top: 22px;
+      color: var(--muted);
+      font-size: 13px;
+      text-align:center;
+    }
+
+    /* Print-friendly */
+    @media print{
+      .topbar, .pdfwrap, .btn {display:none !important;}
+      body{background:#fff; color:#000}
+      .card, .item{box-shadow:none; background:#fff; border:1px solid #ddd}
+      .chip, .pill{border:1px solid #ddd; background:#fff}
+      .subtitle, .company, .when, .where, li, footer, .chip, .pill{color:#333}
+    }
+  </style>
+</head>
+
+<body>
+  <div class="topbar">
+    <div class="wrap">
+      <div class="nav">
+        <a class="brand" href="#top">
+          <span class="dot" aria-hidden="true"></span>
+          <span>Prateek Sapkota</span>
+        </a>
+
+        <div class="links">
+          <a class="pill" href="#experience"><strong>Experience</strong></a>
+          <a class="pill" href="#skills"><strong>Skills</strong></a>
+          <a class="pill" href="#pdf"><strong>PDF</strong></a>
+          <a class="btn" href="assets/Profile.pdf" download>Download PDF</a>
+          <a class="btn secondary" href="https://www.linkedin.com/in/pratiksapkota" target="_blank" rel="noopener">LinkedIn</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <main id="top" class="wrap">
+    <section class="hero">
+      <div class="card">
+        <div class="inner">
+          <h1 class="h1">Prateek Sapkota</h1>
+          <p class="subtitle">
+            DataOps Professional • Cloud / Data Engineering (Azure) • Data Integration • Containerization • CI/CD • Kubernetes
+          </p>
+
+          <div class="meta" aria-label="Contact">
+            <a class="pill" href="tel:+9779860303174">📞 <span>+977-9860303174</span></a>
+            <a class="pill" href="mailto:sapkota053@gmail.com">✉️ <span>sapkota053@gmail.com</span></a>
+            <span class="pill">📍 <span>Pune, Maharashtra, India</span></span>
+          </div>
+
+          <div style="margin-top:14px; border-top:1px solid var(--line); padding-top:14px;">
+            <h2 style="margin:0 0 8px; font-size:16px;">Summary</h2>
+            <p style="margin:0; color:var(--muted);">
+              Skilled Data Engineer and Cloud DevOps Engineer with experience building enterprise-wide cloud hosting platforms
+              for Data, Analytics, and applications in Azure. Strong in Azure services, Python, Synapse Analytics, Terraform,
+              GitHub Actions, and PowerShell; focused on cloud-native development, data governance, and zero-trust security.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="card" id="skills">
+        <div class="titlebar">
+          <h2>Highlights</h2>
+          <span>Top skills & basics</span>
+        </div>
+        <div class="list">
+          <div>
+            <div style="font-weight:750; margin:0 0 8px;">Top Skills</div>
+            <div class="chips">
+              <span class="chip">Azure Kubernetes Service (AKS)</span>
+              <span class="chip">Python</span>
+              <span class="chip">Scikit-Learn</span>
+            </div>
+          </div>
+
+          <div class="twoCol">
+            <div class="item">
+              <div style="font-weight:750; margin-bottom:8px;">Languages</div>
+              <div class="chips">
+                <span class="chip">English (Full Professional)</span>
+                <span class="chip">Nepali (Native/Bilingual)</span>
+                <span class="chip">Hindi (Professional)</span>
+              </div>
+            </div>
+
+            <div class="item">
+              <div style="font-weight:750; margin-bottom:8px;">Certifications & Awards</div>
+              <div class="chips">
+                <span class="chip">Microsoft Professional Program for Data Science</span>
+                <span class="chip">MSP Achievement Certificate</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="item">
+            <div style="font-weight:750; margin-bottom:8px;">Links</div>
+            <div class="chips">
+              <a class="chip" href="https://www.linkedin.com/in/pratiksapkota" target="_blank" rel="noopener">LinkedIn</a>
+              <a class="chip" href="https://aidevnepal.github.io/" target="_blank" rel="noopener">AI Developers Nepal</a>
+              <a class="chip" href="https://github.com/AiDevNepal" target="_blank" rel="noopener">AiDevNepal GitHub</a>
+              <a class="chip" href="assets/Profile.pdf">Resume PDF</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="experience">
+      <div class="card">
+        <div class="titlebar">
+          <h2>Experience</h2>
+          <span>Most recent first</span>
+        </div>
+        <div class="list">
+
+          <div class="item">
+            <div class="itemhead">
+              <div>
+                <p class="role">Cloud Consultant (DataOps)</p>
+                <p class="company">Rapid Circle</p>
+              </div>
+              <div class="when">Mar 2022 — Present</div>
+            </div>
+            <div class="where">Pune, Maharashtra, India</div>
+            <ul>
+              <li>Implemented enterprise-wide cloud hosting platform for Data, Analytics, and applications in Azure.</li>
+              <li>Leveraged cloud-native app development; enabled data governance and secured data/apps using a zero-trust model.</li>
+              <li>Prepared high-level and low-level design documentation.</li>
+              <li>Implemented container lifecycle using Azure Container Instances (ACI) and Azure Container Registry (ACR).</li>
+              <li>Automated application installation and configuration via scripts.</li>
+              <li>Implemented CI/CD lifecycle and IaC best practices.</li>
+            </ul>
+          </div>
+
+          <div class="item">
+            <div class="itemhead">
+              <div>
+                <p class="role">Data Engineer</p>
+                <p class="company">Infotechtion (Contract)</p>
+              </div>
+              <div class="when">Apr 2025 — Jun 2025</div>
+            </div>
+            <div class="where">Contractor (under Rapid Circle payroll)</div>
+          </div>
+
+          <div class="item">
+            <div class="itemhead">
+              <div>
+                <p class="role">Cloud Consultant</p>
+                <p class="company">Shell (via Rapid Circle)</p>
+              </div>
+              <div class="when">May 2022 — Oct 2024</div>
+            </div>
+            <div class="where">Pune, Maharashtra, India</div>
+          </div>
+
+          <div class="item">
+            <div class="itemhead">
+              <div>
+                <p class="role">AI Consultant (Freelance)</p>
+                <p class="company">Freelance / Contract</p>
+              </div>
+              <div class="when">Jan 2021 — Jan 2022</div>
+            </div>
+            <div class="where">Remote</div>
+            <ul>
+              <li>Migrated SSIS packages to Azure Data Factory.</li>
+              <li>Designed and implemented speech recognition for evaluating English spoken tests.</li>
+              <li>Implemented Python debugging pipeline using Pytest + Pylint with GitHub Actions.</li>
+            </ul>
+          </div>
+
+          <div class="item">
+            <div class="itemhead">
+              <div>
+                <p class="role">Data Analyst (Internship)</p>
+                <p class="company">Hash Analytic</p>
+              </div>
+              <div class="when">Jun 2020 — Jul 2020</div>
+            </div>
+            <div class="where">United Kingdom</div>
+            <ul>
+              <li>Data analytics & visualization work.</li>
+              <li>Tools: Python (Pandas, NumPy, Scikit-Learn, Seaborn, Matplotlib), Tableau, Google Analytics (certified).</li>
+            </ul>
+          </div>
+
+          <div class="item">
+            <div class="itemhead">
+              <div>
+                <p class="role">Microsoft Student Partner</p>
+                <p class="company">Microsoft</p>
+              </div>
+              <div class="when">Aug 2019 — Feb 2022</div>
+            </div>
+            <div class="where">Kathmandu, Nepal</div>
+          </div>
+
+          <div class="item">
+            <div class="itemhead">
+              <div>
+                <p class="role">Student Member</p>
+                <p class="company">IEEE</p>
+              </div>
+              <div class="when">Feb 2018 — Aug 2019</div>
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="itemhead">
+              <div>
+                <p class="role">Volunteer</p>
+                <p class="company">DN: AI Developers Nepal</p>
+              </div>
+              <div class="when">Dec 2017 — May 2019</div>
+            </div>
+            <ul>
+              <li>Organizer for AI Saturday Workshop (14-week event); part of Developers Nepal.</li>
+              <li>Objective: crafting AI research and supporting AI education access initiatives.</li>
+            </ul>
+          </div>
+
+          <div class="item">
+            <div class="itemhead">
+              <div>
+                <p class="role">Associate AI Engineer — Machine Learning (Internship)</p>
+                <p class="company">MPercept Technology</p>
+              </div>
+              <div class="when">Jun 2018 — Aug 2018</div>
+            </div>
+            <div class="where">Lalitpur, Nepal</div>
+            <ul>
+              <li>Focus: Natural Language Processing, Machine Learning.</li>
+              <li>Tools: Python, Pandas, NumPy, Scikit-Learn, SpaCy, NLTK, Rasa, Scrapy.</li>
+              <li>Built 2 NLP projects from scratch.</li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="card" id="education">
+        <div class="titlebar">
+          <h2>Education</h2>
+          <span>Certifications / programs</span>
+        </div>
+        <div class="list">
+          <div class="item">
+            <div class="itemhead">
+              <div>
+                <p class="role">Certification — Data Science</p>
+                <p class="company">Indian Institute of Technology, Roorkee (via edX)</p>
+              </div>
+              <div class="when">2020</div>
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="itemhead">
+              <div>
+                <p class="role">Microsoft Professional Program — Data Science & Machine Learning</p>
+                <p class="company">Data Science</p>
+              </div>
+              <div class="when">2017</div>
+            </div>
+          </div>
+
+          <div class="item" id="pdf">
+            <div class="itemhead">
+              <div>
+                <p class="role">Resume PDF</p>
+                <p class="company">Embedded viewer + download</p>
+              </div>
+              <div class="when"><a href="assets/Profile.pdf">Open PDF</a></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="pdfwrap">
+          <div class="pdfbox" aria-label="PDF Viewer">
+            <!-- object first; iframe fallback -->
+            <object data="assets/Profile.pdf" type="application/pdf">
+              <iframe src="assets/Profile.pdf" title="Resume PDF"></iframe>
+            </object>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <footer>
+      © <span id="y"></span> Prateek Sapkota • Built for GitHub Pages
+    </footer>
+  </main>
+
+  <script>
+    document.getElementById("y").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
