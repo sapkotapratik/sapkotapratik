@@ -1,27 +1,68 @@
-<h1 align="center">Hi 👋, I'm Pratik</h1>
-<h3 align="center"> DataOps Engineer In Active Pursuit.</h3>
+# 04_03_ci_cd_for_github_pages
+> **Warning**: GitHub Pages sites are publicly available on the internet, even if the repository for the site is private.
+>
+> If you have sensitive data in your site's repository, you may want to remove the data before publishing a site using GitHub Pages.
+>
+> Specifically, do not publish repository secrets that may include passwords or credentials.
 
-- 🌱 I’m currently working as  **Azure Cloud Consultant(DataOps)**.
+[GitHub Pages](https://pages.github.com/) is a free service provided by GitHub that allows users to host static websites directly from their GitHub repositories.
 
-- 💬 Ask me about **Azure Data Engineering and DevOps**
+Static sites can be stored in a repo as HTML, JavaScript, and CSS.  Or they can be stored as Markdown.
 
-- 📫 How to reach me **sapkotapratik@outlook.com**
+For Markdown sites, a static site generator is used to convert Markdown files into HTML.
 
-<h3 align="left">Connect with me ::</h3>
-<p align="left">
-<a href="https://linkedin.com/in/pratiksapkota" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/neutral-icons/src/images/icons/Social/linked-in-alt.svg" alt="pratiksapkota" height="30" width="40" /></a>
-</p>
+Popular static site generators include:
+- [Jekyll](https://jekyllrb.com/)
+- [Hugo](https://gohugo.io/)
+- [Gatsby](https://www.gatsbyjs.com/)
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://aws.amazon.com" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="aws" width="40" height="40"/> </a> <a href="https://azure.microsoft.com/en-in/" target="_blank"> <img src="https://www.vectorlogo.zone/logos/microsoft_azure/microsoft_azure-icon.svg" alt="azure" width="40" height="40"/> </a> <a href="https://www.cprogramming.com/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="40" height="40"/> </a> <a href="https://cassandra.apache.org/" target="_blank"> <img src="https://www.vectorlogo.zone/logos/apache_cassandra/apache_cassandra-icon.svg" alt="cassandra" width="40" height="40"/> </a>  <a href="https://flask.palletsprojects.com/" target="_blank"> <img src="https://www.vectorlogo.zone/logos/pocoo_flask/pocoo_flask-icon.svg" alt="flask" width="40" height="40"/> </a> <a href="https://git-scm.com/" target="_blank"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://hadoop.apache.org/" target="_blank"> <img src="https://www.vectorlogo.zone/logos/apache_hadoop/apache_hadoop-icon.svg" alt="hadoop" width="40" height="40"/> </a> <a href="https://hive.apache.org/" target="_blank"> <img src="https://www.vectorlogo.zone/logos/apache_hive/apache_hive-icon.svg" alt="hive" width="40" height="40"/> </a> <a href="https://kafka.apache.org/" target="_blank"> <img src="https://www.vectorlogo.zone/logos/apache_kafka/apache_kafka-icon.svg" alt="kafka" width="40" height="40"/> </a> <a href="https://www.postgresql.org" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql" width="40" height="40"/> </a> <a href="https://postman.com" target="_blank"> <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="postman" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> <a href="https://pytorch.org/" target="_blank"> <img src="https://www.vectorlogo.zone/logos/pytorch/pytorch-icon.svg" alt="pytorch" width="40" height="40"/> </a> <a href="https://www.rabbitmq.com" target="_blank"> <img src="https://www.vectorlogo.zone/logos/rabbitmq/rabbitmq-icon.svg" alt="rabbitMQ" width="40" height="40"/> </a> <a href="https://scikit-learn.org/" target="_blank"> <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="scikit_learn" width="40" height="40"/> </a> <a href="https://www.sqlite.org/" target="_blank"> <img src="https://www.vectorlogo.zone/logos/sqlite/sqlite-icon.svg" alt="sqlite" width="40" height="40"/> </a> <a href="https://www.tensorflow.org" target="_blank"> <img src="https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg" alt="tensorflow" width="40" height="40"/> </a> </p>
+Project sites are available at URLs similar to the following:
+- `http(s)://<username>.github.io/<repository>`
+- `http(s)://<organization>.github.io/<repository>`.
 
-<h1>Exam and Certifications</h1>
-  <a href="https://www.credly.com/badges/73cdbc85-bf97-4b83-8691-ea9e67e39f06">
-    <img align="center" src="microsoft-certified-azure-data-engineer-associate.png" title="Azure Data Engineer" height="120" width="120">
-  </a>
-  <a href="https://www.credly.com/badges/a3a092c5-8ce3-4041-88de-c6604aab0948">
-    <img align="center" src="azure-ai-fundamentals-600x600.png" title="Azure AI Engineer" height="120" width="120">
-  <
+GitHub Pages can also be configured to use a custom domain.
 
+## Jekyll Front Matter
+To help Jekyll with compiling and publishing Markdown files, files contain text near the top of the file called [front matter](https://jekyllrb.com/docs/front-matter/).
 
- 
+> Any file that contains a YAML front matter block will be processed by Jekyll as a special file. The front matter must be the first thing in the file and must take the form of valid YAML set between triple-dashed lines. Here is a basic example:
+
+    ---
+    layout: page
+    title: Welcome to my site
+    permalink: /
+    ---
+
+## Recommended Reading
+- [GitHub Pages Documentation](https://docs.github.com/en/pages)
+
+- [GitHub Pages Usage limits](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages#usage-limits)
+
+## Using the Exercise Files
+1. Create a new repo and add the exercise files for this lesson.
+
+    Make sure all `*.png` files are moved into the `images` directory.
+
+    _*Note that images will not display properly unless they are located in the `images` directory.*_
+
+1. From the repo homepage, select **Settings**.
+1. On the Settings page, under **Code and automation**, select **Pages**.
+1. On the *GitHub Pages* page, under **Build and Deployment**, select the drop-down under **Source**.
+1. Select **GitHub Actions**.
+1. Note that repos that only contain HTML, JavaScript, and CSS can be deployed using the *Static HTML* workflow.
+1. Under **GitHub Pages Jekyll**, select **Configure**.
+1. Review the starter workflow, *Deploy Jekyll with GitHub Pages dependencies preinstalled*. Things to note include:
+    - The workflow is triggered by pushes to the main branch or workflow dispatch
+    - Permissions are requested for reading the repo, writing to the github pages service, and writing to
+    the ID token.
+    - The workflow establishes concurrency at the workflow level for a group named "pages" and will wait for in builds that are in progress to complete.
+    - the **build** job checkouts out the repo and runs the `jekyll-build-pages` action to compile the site into a directory containing the HTML, JavaScript, and CSS.
+    - The `upload-pages-artifact` action is used to create an artifact for the deploy step.
+    - The **deploy** job waits for the build job to complete and then deploys the artifact using the `deploy-pages` action.
+    - Note that the build job also uses an environment named github-pages and sets a URL for display on in the Actions UI.
+1. Select **Commit changes...** and then **Commit changes**.
+1. Go to the **Actions** tab.
+1. Note the actively running workflow and select it.
+1. Wait for the workflow to complete.  Optionally, click into the build and deploy jobs to observe them while they are running.
+1. Note and select the URL displayed on the build job.
+1. View the deployed site.
